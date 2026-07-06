@@ -1,16 +1,36 @@
 using UnityEngine;
+ 
 
+using UnityEngine.UI;
+ 
 public class ClickerManager : MonoBehaviour
+
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public double score = 0;
+
+    public double clickPower = 1;
+
+    public Text scoreText;
+
+
+
+    public void OnClickSymbol()
+
     {
-        
+
+        score += clickPower;
+
+        UpdateUI();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void UpdateUI()
+
     {
-        
+
+        scoreText.text = "Pontos: " + score.ToString("F0");
+
     }
+
 }
