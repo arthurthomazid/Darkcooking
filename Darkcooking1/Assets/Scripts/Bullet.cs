@@ -6,11 +6,6 @@ public class Bullet : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, speed);
     }
-
-    void Update()
-    {
-
-    }
     private void OnBecameInvisible() //aciona quando o objeto com arte sai da câmera
     {
         Destroy(gameObject);
