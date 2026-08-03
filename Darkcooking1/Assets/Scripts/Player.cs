@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
+using System.Runtime.CompilerServices;
 public class Player : MonoBehaviour
 {
-    public float _speed = 5f;
+    public float _speed = 6f;
     private Vector2 _movement;
     private Rigidbody2D _rb;
     public GameObject bullet;
-    public int life = 3;
-    private int _lifeMax;
+    public float life = 5f;
+    private float _lifeMax;
 
     [Header("HUD")]
     public TMP_Text vida;
@@ -20,12 +22,9 @@ public class Player : MonoBehaviour
 
         AtualizarHud();
 
-        Debug.Log("Velocidade: " + SaveManager.Instance.UpgradeDesbloqueado("Velocidade"));
-        Debug.Log("TiroTriplo: " + SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"));
-
         if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
         {
-            _speed += 3f;
+            _speed += 2f;
         }
     }
 
@@ -43,7 +42,7 @@ public class Player : MonoBehaviour
                 Instantiate(
                     bullet,
                     transform.position,
-                    Quaternion.Euler(0, 0, 20)
+                    Quaternion.Euler(0, 0, 20) //Quaternion representa rotação (x,y,z)
                 );
 
                 Instantiate(
@@ -66,6 +65,6 @@ public class Player : MonoBehaviour
     }
     void AtualizarHud()
     {
-        vida.text = $"Vida:{life}/3";
+        vida.text = $"Vida:{life}/5";
     }
 }

@@ -63,21 +63,11 @@ public class Enemy : MonoBehaviour
             SaveManager.Instance.RegistrarMorte(tipo);
         }
 
+        audioSource.PlayOneShot(somDano);
+
         Destroy(gameObject);
     }
 
-    void OnBecameVisible()
-    {
-        entrouNaTela = true;
-    }
-
-    void OnBecameInvisible()
-    {
-        if (entrouNaTela)
-        {
-            Destroy(gameObject);
-        }
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Colidiu");
