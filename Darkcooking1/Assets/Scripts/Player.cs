@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 public class Player : MonoBehaviour
 {
     public float _speed = 5f;
@@ -9,10 +10,15 @@ public class Player : MonoBehaviour
     public int life = 3;
     private int _lifeMax;
 
+    [Header("HUD")]
+    public TMP_Text vida;
+
     void Start()
     {
         _lifeMax = life;
         _rb = GetComponent<Rigidbody2D>();
+
+        AtualizarHud();
 
         Debug.Log("Velocidade: " + SaveManager.Instance.UpgradeDesbloqueado("Velocidade"));
         Debug.Log("TiroTriplo: " + SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"));
@@ -51,12 +57,15 @@ public class Player : MonoBehaviour
 
     public void ReceberDano(int dano)
     {
-        Debug.Log("dano recebido");
-        Debug.Log("vida restante:" + life);
         life -= dano;
+        AtualizarHud();
         if (life <= 0)
         {
             SceneManager.LoadScene("Game Over");
         }
+    }
+    void AtualizarHud()
+    {
+        vida.text = $"Vida:{life}/3";
     }
 }
