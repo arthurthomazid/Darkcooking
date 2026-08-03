@@ -6,12 +6,21 @@ public class Player : MonoBehaviour
     private Vector2 _movement;
     private Rigidbody2D _rb;
     public GameObject bullet;
-    public int life = 10;
+    public int life = 3;
     private int _lifeMax;
+
     void Start()
     {
         _lifeMax = life;
         _rb = GetComponent<Rigidbody2D>();
+
+        Debug.Log("Velocidade: " + SaveManager.Instance.UpgradeDesbloqueado("Velocidade"));
+        Debug.Log("TiroTriplo: " + SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"));
+
+        if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
+        {
+            _speed += 3f;
+        }
     }
 
     void Update()
@@ -23,15 +32,31 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1")) //aciona o tiro
         {
             Instantiate(bullet, transform.position, transform.rotation);
+            if (SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"))
+            {
+                Instantiate(
+                    bullet,
+                    transform.position,
+                    Quaternion.Euler(0, 0, 20)
+                );
+
+                Instantiate(
+                    bullet,
+                    transform.position,
+                    Quaternion.Euler(0, 0, -20)
+                 );
+            }
         }
     }
-    public void TakeDamage(int damage)
+
+    public void ReceberDano(int dano)
     {
-        life -= damage;
+        Debug.Log("dano recebido");
+        Debug.Log("vida restante:" + life);
+        life -= dano;
         if (life <= 0)
         {
-            print("betinha");
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Game Over");
         }
     }
 }

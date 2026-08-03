@@ -1,23 +1,35 @@
 using UnityEngine;
+
 public class Bullet : MonoBehaviour
 {
-    public float speed = 8;
+    public float speed = 8f;
+    public float velocidadeRotacao = 720f;
+    private Rigidbody2D rb;
+    void Update()
+    {
+        transform.Rotate(0f, 0f, -velocidadeRotacao * Time.deltaTime);
+    }
+
     void Start()
     {
-        GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, speed);
+        rb = GetComponent<Rigidbody2D>();
+        //faz a bala ir na direção em que está apontando.
+        rb.linearVelocity = transform.up * speed;
     }
-    private void OnBecameInvisible() //aciona quando o objeto com arte sai da câmera
+
+    private void OnBecameInvisible()
     {
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D collision) //acionado quando este objeto bate em outro //collision é o objeto que bateu neste
-                                                        //deve ser IsTrigger
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Enemy"))
+        Enemy enemy = other.GetComponent<Enemy>();
+        if (enemy != null)
         {
+            enemy.ReceberDano(1);
+
             Destroy(gameObject);
-            Destroy(collision.gameObject);
         }
     }
-
 }
