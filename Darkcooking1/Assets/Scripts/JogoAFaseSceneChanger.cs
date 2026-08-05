@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public string fase;
+    public string Fase1;
     public void changeScene()
     {
-        SceneManager.LoadScene(fase);
+        SceneManager.LoadScene(Fase1);
     }
 }
