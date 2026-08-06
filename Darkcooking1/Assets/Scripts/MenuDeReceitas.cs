@@ -49,7 +49,7 @@ public class RecipeMenu : MonoBehaviour
             cenouras >= 8 &&
             alfaces >= 6 &&
             macas >= 3 &&
-            !SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo");
+            !SaveManager.Instance.UpgradeDesbloqueado("DanoExtra");
     }
 
     public void ComprarVelocidade()
@@ -61,7 +61,7 @@ public class RecipeMenu : MonoBehaviour
 
     public void ComprarTiroTriplo()
     {
-        SaveManager.Instance.DesbloquearUpgrade("TiroTriplo");
+        SaveManager.Instance.DesbloquearUpgrade("DanoExtra");
 
         AtualizarReceitas();
     }

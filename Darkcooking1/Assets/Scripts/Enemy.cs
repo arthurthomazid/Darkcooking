@@ -18,17 +18,15 @@ public class Enemy : MonoBehaviour
     [Header("Tipo do Inimigo")]
     public TipoComida tipo;
 
-    [Header("Configurações de Movimento")]
+    [Header("Velocidade")]
     public float velocidade = 5f;
 
-    [Header("Configurações de Vida")]
+    [Header("Vida")]
     public int vidaMaxima = 3;
 
     private int vidaAtual;
 
     private Rigidbody2D rb;
-
-    private bool entrouNaTela = false;
 
     void Start()
     {
@@ -83,7 +81,7 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                player.ReceberDano(1);
+                player.ReceberDano();
                 Debug.Log("Player encontrado");
             }
             Destroy(gameObject);

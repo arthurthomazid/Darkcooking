@@ -135,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   somDano: {fileID: 8300000, guid: 68de844240f80ef45a77b993d7a6cc22, type: 3}
   tipo: 1
-  velocidade: 3
+  velocidade: 2.5
   vidaMaxima: 1
 --- !u!61 &5923467801499640041
 BoxCollider2D:

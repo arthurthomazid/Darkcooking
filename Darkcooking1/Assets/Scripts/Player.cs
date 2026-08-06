@@ -51,12 +51,16 @@ public class Player : MonoBehaviour
                     Quaternion.Euler(0, 0, -20)
                  );
             }
+            if (SaveManager.Instance.UpgradeDesbloqueado("DanoExtra"))
+            {
+                
+            }
         }
     }
 
-    public void ReceberDano(int dano)
+    public void ReceberDano()
     {
-        life -= dano;
+        life -= 1;
         AtualizarHud();
         if (life <= 0)
         {
