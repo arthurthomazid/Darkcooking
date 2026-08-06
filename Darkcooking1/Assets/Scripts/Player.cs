@@ -51,10 +51,6 @@ public class Player : MonoBehaviour
                     Quaternion.Euler(0, 0, -20)
                  );
             }
-            if (SaveManager.Instance.UpgradeDesbloqueado("DanoExtra"))
-            {
-                
-            }
         }
     }
 
