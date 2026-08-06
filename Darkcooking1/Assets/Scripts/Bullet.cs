@@ -7,10 +7,14 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D rb;
     
     [Header("Dano")]
-    public float dano = 1;
+    public float dano = 1f;
     void Update()
     {
         transform.Rotate(0f, 0f, -velocidadeRotacao * Time.deltaTime);
+        if (SaveManager.Instance.UpgradeDesbloqueado("DanoExtra"))
+        {
+            dano = 2f;
+        }
     }
 
     void Start()

@@ -59,7 +59,7 @@ public class RecipeMenu : MonoBehaviour
         AtualizarReceitas();
     }
 
-    public void ComprarTiroTriplo()
+    public void ComprarDanoExtra()
     {
         SaveManager.Instance.DesbloquearUpgrade("DanoExtra");
 
