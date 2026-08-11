@@ -6,6 +6,13 @@ public class JogoAFaseSceneChanger : MonoBehaviour
     public string game;
     public void changeScene()
     {
-        SceneManager.LoadScene("Fase 1");
+        if (SaveManager.Instance.TodosUpgradesDesbloqueados())
+        {
+            SceneManager.LoadScene("FaseBoss");
+        }
+        else
+        {
+            SceneManager.LoadScene("Fase1");
+        }
     }
 }
