@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Muro
+  - Boss
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -14,10 +16,10 @@ TagManager:
   - Water
   - UI
   - cena
-  - 
-  - 
-  - 
-  - 
+  - Boss
+  - EnemyBullet
+  - Muro
+  - Player
   - 
   - 
   - 

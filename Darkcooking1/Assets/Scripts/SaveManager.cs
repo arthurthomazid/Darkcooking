@@ -56,4 +56,13 @@ public class SaveManager : MonoBehaviour
         PlayerPrefs.SetInt(nome, 1);
         PlayerPrefs.Save();
     }
+    public bool TodosUpgradesDesbloqueados()
+    {
+        //verifica os upgrades
+        bool velocidade = UpgradeDesbloqueado("Velocidade");
+        bool tiroTriplo = UpgradeDesbloqueado("TiroTriplo");
+
+        // retorna true se ambos forem desbloqueados
+        return velocidade && tiroTriplo;
+    }
 }

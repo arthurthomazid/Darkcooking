@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.Audio;
-
+using TMPro;
 public enum TipoComida
 {
     Maca,
     Cenoura,
-    Alface
+    Alface,
+    Abobora,
+    Batata,
+    Boss
 }
 
 public class Enemy : MonoBehaviour
@@ -18,22 +21,12 @@ public class Enemy : MonoBehaviour
     [Header("Tipo do Inimigo")]
     public TipoComida tipo;
 
-    [Header("Velocidade")]
-    public float velocidade = 5f;
-
-    [Header("Vida")]
     public int vidaMaxima = 3;
 
     private int vidaAtual;
 
-    private Rigidbody2D rb;
-
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-
-        rb.linearVelocity = new Vector2(0f, -velocidade);
-
         audioSource = GetComponent<AudioSource>();
 
         vidaAtual = vidaMaxima;
@@ -68,7 +61,6 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Colidiu");
         //verifica se o objeto possui a tag de muro
         if (other.CompareTag("Muro"))
         {

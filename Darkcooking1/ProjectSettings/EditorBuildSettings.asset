@@ -6,20 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2b641158fce053b4f909021ea9c5cd1e
+  - enabled: 1
     path: Assets/Scenes/Area inicial.unity
     guid: 55f3ffa56544742458a4c42be28ef43b
   - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: "Assets/Scenes/Area Segund\xE1ria.unity"
+    guid: f827c9260c026a2488fd5ac5a30d31f1
+  - enabled: 1
+    path: Assets/Scenes/Fase2.unity
+    guid: e1eb4c8989484554abcc9f6d6f44c621
+  - enabled: 1
+    path: Assets/Scenes/FaseBoss.unity
+    guid: aed25e15ac0732f4a910cdb90ff430ab
+  - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: a60aba5a9f17c0a42a7df8ee428cf4f4
-  - enabled: 0
-    path: Assets/Scenes/Menu.unity
-    guid: c9fd0ec7c365b3640b9f23754303fa6d
-  - enabled: 0
-    path: Assets/Scenes/Parte de alimentos.unity
-    guid: 3234379f76de3604ba208d2d9d094565
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: ba6dd4abb16b2864285510604a69cf6f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

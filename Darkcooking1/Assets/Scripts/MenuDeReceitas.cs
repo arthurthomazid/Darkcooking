@@ -17,6 +17,10 @@ public class RecipeMenu : MonoBehaviour
     public TMP_Text textoAlface;
     public TMP_Text textoMaca2;
 
+    public bool comprarVelocidade;
+    public bool comprarDanoExtra;
+
+    public GameObject painel;
     void OnEnable()
     {
         AtualizarReceitas();
@@ -28,9 +32,10 @@ public class RecipeMenu : MonoBehaviour
         int macas = SaveManager.Instance.GetQuantidade(TipoComida.Maca);
         int cenouras = SaveManager.Instance.GetQuantidade(TipoComida.Cenoura);
         int alfaces = SaveManager.Instance.GetQuantidade(TipoComida.Alface);
+        int batatas = SaveManager.Instance.GetQuantidade(TipoComida.Batata);
+        int abobora = SaveManager.Instance.GetQuantidade(TipoComida.Abobora);
 
         //Atualiza os textos
-
         textoMaca.text = $"Maçãs:{macas}/10";
         textoCenoura.text = $"Cenouras:{cenouras}/5";
 
@@ -50,11 +55,14 @@ public class RecipeMenu : MonoBehaviour
             alfaces >= 6 &&
             macas >= 3 &&
             !SaveManager.Instance.UpgradeDesbloqueado("DanoExtra");
+
+        ProximaFase();
     }
 
     public void ComprarVelocidade()
     {
         SaveManager.Instance.DesbloquearUpgrade("Velocidade");
+        comprarVelocidade = true;
 
         AtualizarReceitas();
     }
@@ -62,7 +70,16 @@ public class RecipeMenu : MonoBehaviour
     public void ComprarDanoExtra()
     {
         SaveManager.Instance.DesbloquearUpgrade("DanoExtra");
+        comprarDanoExtra = true;
 
         AtualizarReceitas();
+    }
+    public void ProximaFase()
+    {
+        if(comprarDanoExtra && comprarVelocidade == true)
+        {
+            Debug.Log("tem os dois upgrades");
+            painel.SetActive(true);
+        }
     }
 }
