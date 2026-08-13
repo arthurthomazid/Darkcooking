@@ -17,9 +17,6 @@ public class RecipeMenu : MonoBehaviour
     public TMP_Text textoAlface;
     public TMP_Text textoMaca2;
 
-    public bool comprarVelocidade;
-    public bool comprarDanoExtra;
-
     public GameObject painel;
     void OnEnable()
     {
@@ -62,7 +59,6 @@ public class RecipeMenu : MonoBehaviour
     public void ComprarVelocidade()
     {
         SaveManager.Instance.DesbloquearUpgrade("Velocidade");
-        comprarVelocidade = true;
 
         AtualizarReceitas();
     }
@@ -70,15 +66,17 @@ public class RecipeMenu : MonoBehaviour
     public void ComprarDanoExtra()
     {
         SaveManager.Instance.DesbloquearUpgrade("DanoExtra");
-        comprarDanoExtra = true;
 
         AtualizarReceitas();
     }
     public void ProximaFase()
     {
-        if(comprarDanoExtra && comprarVelocidade == true)
+        bool velocidade = SaveManager.Instance.UpgradeDesbloqueado("Velocidade");
+        bool danoExtra = SaveManager.Instance.UpgradeDesbloqueado("DanoExtra");
+
+        if (velocidade && danoExtra)
         {
-            Debug.Log("tem os dois upgrades");
+            Debug.Log("Tem os dois upgrades!");
             painel.SetActive(true);
         }
     }

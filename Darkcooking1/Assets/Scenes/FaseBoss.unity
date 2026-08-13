@@ -1538,7 +1538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefabs:
-  - {fileID: 9118016779121539410, guid: 3af3de1a717b9bc4ab0be4e9c9119c2f, type: 3}
+  - {fileID: 4499050206911607251, guid: 4d8bc1879430d3a43b8b0e85f43f6edb, type: 3}
   spawnInterval: 0.2
   minX: -8
   maxX: 8
@@ -1797,7 +1797,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.484804, y: 0.86503696}
+  m_Size: {x: 2.5, y: 0.86503696}
   m_EdgeRadius: 0
 --- !u!114 &462453991
 MonoBehaviour:
@@ -4090,8 +4090,8 @@ Transform:
   m_GameObject: {fileID: 928527882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0279, y: -5.2145, z: 0}
-  m_LocalScale: {x: 17.9043, y: 0.52168477, z: 1}
+  m_LocalPosition: {x: -0.0279, y: -4.9645004, z: 0}
+  m_LocalScale: {x: 17.9043, y: 1.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
