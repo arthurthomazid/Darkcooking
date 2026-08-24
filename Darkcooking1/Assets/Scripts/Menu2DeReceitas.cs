@@ -47,7 +47,9 @@ public class Recipe2Menu : MonoBehaviour
     }
     public void ProximaFase()
     {
-        if (comprarTiroTriplo == true)
+        bool tiroTriplo = SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo");
+
+        if (tiroTriplo)
         {
             Debug.Log("tem o upgrade");
             painel.SetActive(true);

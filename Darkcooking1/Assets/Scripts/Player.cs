@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        _movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _movement = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
         _rb.linearVelocity = _movement * _speed;
 
 

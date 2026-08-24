@@ -1114,7 +1114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 873686036891584330, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vidaMaxima
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 3001688466889164934, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vida
@@ -1122,7 +1122,7 @@ PrefabInstance:
       objectReference: {fileID: 1868974657}
     - target: {fileID: 3001688466889164934, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vidaMaxima
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 4699593150729776262, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: m_Name
