@@ -43,18 +43,19 @@ public class Enemy : MonoBehaviour
 
         if (vidaAtual <= 0)
         {
+            audioSource.PlayOneShot(somDano);
             Morrer();
         }
     }
 
     void Morrer()
     {
+        audioSource.PlayOneShot(somDano);
+
         if (SaveManager.Instance != null)
         {
             SaveManager.Instance.RegistrarMorte(tipo);
         }
-
-        audioSource.PlayOneShot(somDano);
 
         Destroy(gameObject);
     }
