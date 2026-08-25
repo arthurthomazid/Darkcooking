@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be078ad29aaf1644a931fb00d75425d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  somDano: {fileID: 8300000, guid: 68de844240f80ef45a77b993d7a6cc22, type: 3}
+  somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
   tipo: 1
   vidaMaxima: 2
 --- !u!61 &5923467801499640041
@@ -194,7 +194,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 68de844240f80ef45a77b993d7a6cc22, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
