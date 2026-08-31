@@ -21,7 +21,9 @@ public class Enemy : MonoBehaviour
     [Header("Tipo do Inimigo")]
     public TipoComida tipo;
 
+    [Header("Atributos")]
     public int vidaMaxima = 3;
+    public int dano;
 
     private int vidaAtual;
 

@@ -8,6 +8,7 @@ public class FaseTimer : MonoBehaviour
     public float tempoDaFase = 60f;
     private float tempoRestante;
     public TMP_Text textoTempo;
+    public string cena;
 
     void Start()
     {
@@ -28,6 +29,6 @@ public class FaseTimer : MonoBehaviour
     }
     void FinalizarFase()
     {
-        SceneManager.LoadScene("Area inicial");
+        SceneManager.LoadScene("cena");
     }
 }

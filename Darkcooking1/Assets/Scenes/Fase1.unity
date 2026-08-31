@@ -3195,6 +3195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FaseTimer
   tempoDaFase: 30
   textoTempo: {fileID: 151990306}
+  cena: Primeira Area
 --- !u!4 &861914059
 Transform:
   m_ObjectHideFlags: 0

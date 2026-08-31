@@ -12,7 +12,7 @@ public class JogoAFaseSceneChanger : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Fase1");
+            SceneManager.LoadScene("game");
         }
     }
 }

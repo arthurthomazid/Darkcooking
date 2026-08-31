@@ -8,6 +8,6 @@ public class ReiniciarJogo : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
 
-        SceneManager.LoadScene("Area inicial");
+        SceneManager.LoadScene("Primeira Area");
     }
 }
