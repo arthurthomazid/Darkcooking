@@ -29,6 +29,6 @@ public class FaseTimer : MonoBehaviour
     }
     void FinalizarFase()
     {
-        SceneManager.LoadScene("cena");
+        SceneManager.LoadScene(cena);
     }
 }

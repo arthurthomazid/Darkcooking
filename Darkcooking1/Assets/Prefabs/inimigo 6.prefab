@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 250e2b0223cfbd948958356e8686f562, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8995203, g: 0.4575472, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -136,7 +136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
   tipo: 0
-  vidaMaxima: 26
+  vidaMaxima: 30
+  dano: 1
 --- !u!61 &6370508038931584764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -292,6 +293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c55c69adc06084ba828a22acee1ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  velocidade: 1.1
+  velocidade: 0.9
   tempoTroca: 99
   velocidadeHorizontal: 0
