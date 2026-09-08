@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 using System.Runtime.CompilerServices;
+using System;
 public class Player : MonoBehaviour
 {
     public float _speed = 6f;
@@ -54,8 +55,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void ReceberDano()
+    public void ReceberDano(int dano)
     {
+        dano = 1;
         life -= 1;
         AtualizarHud();
         if (life <= 0)
@@ -66,5 +68,10 @@ public class Player : MonoBehaviour
     void AtualizarHud()
     {
         vida.text = $"Vida:{life}/5";
+    }
+
+    internal void ReceberDano()
+    {
+
     }
 }

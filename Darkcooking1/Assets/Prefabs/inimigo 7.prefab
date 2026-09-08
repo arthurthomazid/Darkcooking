@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 6793088397864357078}
   - component: {fileID: 6370508038931584764}
   - component: {fileID: 7661285800858633656}
-  - component: {fileID: 4718628001086715165}
   - component: {fileID: 2783927458041946907}
+  - component: {fileID: -2255596089561937773}
   m_Layer: 3
-  m_Name: inimigo 6
+  m_Name: inimigo 7
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 250e2b0223cfbd948958356e8686f562, type: 3}
-  m_Color: {r: 0.8995203, g: 0.4575472, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.19994345, b: 0.18396229, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -282,21 +282,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4718628001086715165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6228469878508544449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 427b2707463b4d944ab6bb097896d8da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
-  projetil: {fileID: 4499050206911607251, guid: 4d8bc1879430d3a43b8b0e85f43f6edb, type: 3}
-  intervalo: 2
-  velocidade: 5
 --- !u!114 &2783927458041946907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,3 +297,19 @@ MonoBehaviour:
   velocidade: 0.9
   tempoTroca: 99
   velocidadeHorizontal: 0
+--- !u!114 &-2255596089561937773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228469878508544449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a886d902baf0cfe4aa3547e9adb66a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeterrabaExplosion
+  tempoParaExplodir: 6
+  raioExplosao: 4.5
+  dano: 1
+  efeitoExplosao: {fileID: 0}
