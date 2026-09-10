@@ -21,12 +21,16 @@ public class Player : MonoBehaviour
         _lifeMax = life;
         _rb = GetComponent<Rigidbody2D>();
 
-        AtualizarHud();
-
         if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
         {
             _speed += 2f;
         }
+        if (SaveManager.Instance.UpgradeDesbloqueado("VidaExtra"))
+        {
+            _lifeMax += 8;
+        }
+
+        AtualizarHud();
     }
 
     void Update()
@@ -67,11 +71,15 @@ public class Player : MonoBehaviour
     }
     void AtualizarHud()
     {
-        vida.text = $"Vida:{life}/5";
+            vida.text = $"Vida:{life}/5";
     }
-
-    internal void ReceberDano()
+    public void ReceberDano()
     {
-
+        life -= 1;
+        if (life <= 0)  
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+        AtualizarHud();
     }
 }

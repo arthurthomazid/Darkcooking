@@ -7,7 +7,6 @@ public class EnemyBullet : MonoBehaviour
     public float velocidade = 0f;
 
     [Header("Disparo")]
-    public Transform pontoDeDisparo;
 
     public GameObject tiroPrefabs;
 
@@ -28,20 +27,12 @@ public class EnemyBullet : MonoBehaviour
 
         if (timer >= spawnInterval)
         {
-            Tiro();
             Atirar();
 
             timer = 0f;
         }
     }
 
-    private void Tiro()
-    {
-        if(pontoDeDisparo == null || tiroPrefabs == null)
-        {
-            Instantiate(tiroPrefabs, pontoDeDisparo.position, Quaternion.identity);
-        }
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

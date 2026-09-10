@@ -61,8 +61,9 @@ public class SaveManager : MonoBehaviour
         //verifica os upgrades
         bool velocidade = UpgradeDesbloqueado("Velocidade");
         bool tiroTriplo = UpgradeDesbloqueado("DanoExtra");
+        bool tiroDanoExtra = UpgradeDesbloqueado("TiroTriplo");
 
         // retorna true se ambos forem desbloqueados
-        return velocidade && tiroTriplo;
+        return velocidade && tiroTriplo && tiroDanoExtra;
     }
 }
