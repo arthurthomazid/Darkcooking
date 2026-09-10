@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7661285800858633656}
   - component: {fileID: 4718628001086715165}
   - component: {fileID: 2783927458041946907}
+  - component: {fileID: 2146553680844442838}
   m_Layer: 3
   m_Name: inimigo 6
   m_TagString: Enemy
@@ -312,3 +313,19 @@ MonoBehaviour:
   velocidade: 0.9
   tempoTroca: 99
   velocidadeHorizontal: 0
+--- !u!114 &2146553680844442838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228469878508544449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427b2707463b4d944ab6bb097896d8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
+  velocidade: 4
+  tiroPrefabs:
+  - {fileID: 4499050206911607251, guid: 4d8bc1879430d3a43b8b0e85f43f6edb, type: 3}
+  spawnInterval: 1
