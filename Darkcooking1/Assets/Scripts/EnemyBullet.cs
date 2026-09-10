@@ -11,6 +11,7 @@ public class EnemyBullet : MonoBehaviour
 
     public GameObject tiroPrefabs;
 
+    [Header("Configurações")]
     public float spawnInterval = 2f;
     public float timer = 0f;
 
@@ -28,6 +29,7 @@ public class EnemyBullet : MonoBehaviour
         if (timer >= spawnInterval)
         {
             Tiro();
+            Atirar();
 
             timer = 0f;
         }
@@ -56,30 +58,14 @@ public class EnemyBullet : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-    [Header("Configurações do tiro")]
-    public GameObject projetil;
-    public float intervalo = 2f;
-    private float contador = 0f;
-
-    void Update()
-    {
-        contador += Time.deltaTime;
-        if (contador >= intervalo)
-        {
-            Atirar();
-            contador = 0f;
-        }
-    }
-
     void Atirar()
     {
-        GameObject novoProjetil = Instantiate(
-            projetil,
+        GameObject novoTiro = Instantiate(
+            tiroPrefabs,
             transform.position,
             transform.rotation
         );
-        Rigidbody2D rb = novoProjetil.GetComponent<Rigidbody2D>();
+        Rigidbody2D rb = novoTiro.GetComponent<Rigidbody2D>();
         rb.linearVelocity = transform.up * velocidade;
     }
 
