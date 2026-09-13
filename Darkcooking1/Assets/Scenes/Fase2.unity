@@ -493,7 +493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 30
+  m_text: 40
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3426,7 +3426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497ed3cc27c85af42933a60e032d530c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FaseTimer
-  tempoDaFase: 60
+  tempoDaFase: 40
   textoTempo: {fileID: 151990306}
   cena: Segunda Area
 --- !u!1 &862488468
@@ -6047,7 +6047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Vida:5/5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

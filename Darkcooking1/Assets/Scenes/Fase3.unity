@@ -119,63 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &2386798
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6228469878508544449, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_Name
-      value: inimigo 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.2646594
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.9642363
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6883638834775479487, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
 --- !u!1 &46131479
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +583,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 30
+  m_text: 40
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1473,9 +1416,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefabs:
-  - {fileID: 6228469878508544449, guid: 3bae4453baaa7804a93a690afe9a5d74, type: 3}
-  - {fileID: 6228469878508544449, guid: 50536bc32a9a9874e91c2487b9f1277e, type: 3}
-  spawnInterval: 1.75
+  - {fileID: 1088401662503168223, guid: 685b3a21a2ea4f44e9702d18cf047774, type: 3}
+  - {fileID: 2240369485002906354, guid: 5f6456b2b4618d4439976c91a204a6b8, type: 3}
+  spawnInterval: 2.25
   minX: -8
   maxX: 8
   spawnY: 6
@@ -3249,9 +3192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497ed3cc27c85af42933a60e032d530c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FaseTimer
-  tempoDaFase: 30
+  tempoDaFase: 40
   textoTempo: {fileID: 151990306}
-  cena: 
+  cena: FaseBoss
 --- !u!4 &861914059
 Transform:
   m_ObjectHideFlags: 0
@@ -5141,7 +5084,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Vida:5/5
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6490,4 +6435,3 @@ SceneRoots:
   - {fileID: 153321635}
   - {fileID: 1566935121}
   - {fileID: 786175200}
-  - {fileID: 2386798}

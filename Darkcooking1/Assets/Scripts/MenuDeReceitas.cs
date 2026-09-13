@@ -53,7 +53,7 @@ public class RecipeMenu : MonoBehaviour
             macas >= 3 &&
             !SaveManager.Instance.UpgradeDesbloqueado("DanoExtra");
 
-        //ProximaFase();
+        ProximaFase();
     }
 
     public void ComprarVelocidade()

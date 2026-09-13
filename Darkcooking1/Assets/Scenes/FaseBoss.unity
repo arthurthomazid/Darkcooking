@@ -1114,7 +1114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 873686036891584330, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vidaMaxima
-      value: 600
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 3001688466889164934, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vida
@@ -1122,7 +1122,7 @@ PrefabInstance:
       objectReference: {fileID: 1868974657}
     - target: {fileID: 3001688466889164934, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: vidaMaxima
-      value: 600
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 4699593150729776262, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: m_Name
@@ -3493,8 +3493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a4f09989de23e4eabb8719e07b55c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fase2Timer
-  tempoDaFase: 180
-  textoTempo: {fileID: 151990306}
 --- !u!1 &862488468
 GameObject:
   m_ObjectHideFlags: 0
@@ -5977,7 +5975,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Vida:5/5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6808,7 +6806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Vida:700/700
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

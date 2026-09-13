@@ -28,11 +28,15 @@ public class BeterrabaExplosion : MonoBehaviour
         //Cria o efeito visual da explosão
         if (efeitoExplosao != null)
         {
-            Instantiate(
-                efeitoExplosao,
-                transform.position,
-                Quaternion.identity
+            //Cria a explosão e guarda ela na variável
+            GameObject explosao = Instantiate(
+            efeitoExplosao,
+            transform.position,
+            Quaternion.identity
             );
+
+            //Destrói a explosão depois de 1 segundo
+            Destroy(explosao, 1f);
         }
         //Procura todos os Colliders dentro do raio da explosão
         Collider2D[] objetosAtingidos = Physics2D.OverlapCircleAll(
