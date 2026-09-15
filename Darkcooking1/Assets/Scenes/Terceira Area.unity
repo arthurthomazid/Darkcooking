@@ -314,8 +314,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Agora que voc\xEA conseguiu fazer seus pratos pela manh\xE3 e tarde, voc\xEA
-    sente que a noite ir\xE1 vir mais deles"
+  m_text: "Antes de voc\xEA ir dormir ap\xF3s fazer sua ultima receita por hoje,
+    voc\xEA decide ficar por mais um tempo, e acaba se deparando com algo pior que
+    os outros"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -839,7 +840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181.7, y: -152.6}
+  m_AnchoredPosition: {x: 275.80344, y: -58.496597}
   m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731548973
@@ -886,8 +887,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1118127477}
-        m_TargetAssemblyTypeName: PassarDeFase, Assembly-CSharp
+      - m_Target: {fileID: 1365020560}
+        m_TargetAssemblyTypeName: JogoAFaseSceneChanger, Assembly-CSharp
         m_MethodName: changeScene
         m_Mode: 1
         m_Arguments:
@@ -1658,7 +1659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf7c2f12c4eb8a4c95b12f491b068b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChange
-  Fase1: Fase1
+  Fase1: Fase3
 --- !u!4 &1016611995
 Transform:
   m_ObjectHideFlags: 0
@@ -1711,7 +1712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261.7196, y: -122.56126}
+  m_AnchoredPosition: {x: 295.3439, y: -185.1721}
   m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087953130
@@ -1808,51 +1809,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087953128}
   m_CullTransparentMesh: 1
---- !u!1 &1118127476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1118127478}
-  - component: {fileID: 1118127477}
-  m_Layer: 0
-  m_Name: PassadorDeFase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1118127477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118127476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfdf7844c25a9fe4db2fe318aeaa1692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PassarDeFase
-  Fase2: "Area Segund\xE1ria"
---- !u!4 &1118127478
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118127476}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 497.10257, y: 242.86705, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200341709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +2584,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330790881}
   m_CullTransparentMesh: 1
+--- !u!1 &1365020559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1365020561}
+  - component: {fileID: 1365020560}
+  m_Layer: 0
+  m_Name: FaseBossEmpty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1365020560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365020559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833e245d7a166b149bcb1259d35973bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JogoAFaseSceneChanger
+  game: FaseBoss
+--- !u!4 &1365020561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365020559}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 374.41788, y: 223.29341, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426241998
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,5 +3543,5 @@ SceneRoots:
   - {fileID: 1016611995}
   - {fileID: 961722656}
   - {fileID: 556877312}
-  - {fileID: 1118127478}
   - {fileID: 701827576}
+  - {fileID: 1365020561}

@@ -1124,6 +1124,10 @@ PrefabInstance:
       propertyPath: vidaMaxima
       value: 700
       objectReference: {fileID: 0}
+    - target: {fileID: 3076428682009122712, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: velocidade
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4699593150729776262, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
       propertyPath: m_Name
       value: Boss
