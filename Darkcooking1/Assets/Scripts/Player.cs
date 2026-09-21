@@ -19,17 +19,21 @@ public class Player : MonoBehaviour
     void Start()
     {
         _lifeMax = life;
+        AtualizarHud();
         _rb = GetComponent<Rigidbody2D>();
-
         if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
         {
             _speed += 2f;
         }
+        _lifeMax = life;
+        AtualizarHud();
         if (SaveManager.Instance.UpgradeDesbloqueado("VidaExtra"))
         {
-            _lifeMax += 8;
+            life = 8f;
+            _lifeMax = 8f;
         }
 
+        _lifeMax = life;
         AtualizarHud();
     }
 
@@ -71,7 +75,7 @@ public class Player : MonoBehaviour
     }
     void AtualizarHud()
     {
-            vida.text = $"Vida:{life}/5";
+            vida.text = $"Vida:{life}/{_lifeMax}";
     }
     public void ReceberDano()
     {

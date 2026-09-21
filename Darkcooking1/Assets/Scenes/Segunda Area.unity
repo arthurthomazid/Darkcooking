@@ -5902,7 +5902,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &767003187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5979,10 +5979,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d1146b2933ffa479800b7108af7e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Recipe2Menu
-  tiroTriploButton: {fileID: 1195444510}
+  vidaExtraButton: {fileID: 1195444510}
   textoBatata: {fileID: 289043842}
   textoAbobora: {fileID: 2117550701}
-  comprarTiroTriplo: 0
+  comprarVidaExtra: 0
   painel: {fileID: 2116388138}
 --- !u!1 &794293307
 GameObject:
@@ -6827,10 +6827,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d1146b2933ffa479800b7108af7e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Recipe2Menu
-  tiroTriploButton: {fileID: 95849068}
+  vidaExtraButton: {fileID: 0}
   textoBatata: {fileID: 1183903624}
   textoAbobora: {fileID: 287262472}
-  comprarTiroTriplo: 0
+  comprarVidaExtra: 0
   painel: {fileID: 2116388138}
 --- !u!114 &1168082414
 MonoBehaviour:
@@ -7071,7 +7071,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 767003190}
         m_TargetAssemblyTypeName: Recipe2Menu, Assembly-CSharp
-        m_MethodName: ComprarTiroTriplo
+        m_MethodName: AtualizarReceitas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8484,7 +8484,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Agora que voc\xEA conseguiu fazer seus pratos pela manh\xE3 e tarde, voc\xEA
-    vai dormir e sente que a noite ir\xE1 vir mais deles"
+    vai dormir e sente que a noite ir\xE1 vir mais deles amanh\xE3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8494,7 +8494,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4288585471
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8620,7 +8620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dispara 2 facas bonus
+  m_text: Aumenta Vida
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8629,8 +8629,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294377381
-  m_fontColor: {r: 0.6462264, g: 1, b: 0.96475375, a: 1}
+    rgba: 4289068972
+  m_fontColor: {r: 0.6743588, g: 1, b: 0.64705884, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

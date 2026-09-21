@@ -5,13 +5,13 @@ using UnityEngine.UI;
 public class Recipe2Menu : MonoBehaviour
 {
     [Header("Botões")]
-    public Button tiroTriploButton;
+    public Button vidaExtraButton;
 
     [Header("Textos da Receita da sopa")]
     public TMP_Text textoBatata;
     public TMP_Text textoAbobora;
 
-    public bool comprarTiroTriplo;
+    public bool comprarVidaExtra;
     public GameObject painel;
 
     void OnEnable()
@@ -30,26 +30,26 @@ public class Recipe2Menu : MonoBehaviour
         textoBatata.text = $"Batatas:{batatas}/8";
         textoAbobora.text = $"Aboboras:{abobora}/8";
 
-        tiroTriploButton.interactable =
+        vidaExtraButton.interactable =
             batatas >= 8 &&
             abobora >= 8 &&
-            !SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo");
+            !SaveManager.Instance.UpgradeDesbloqueado("VidaExtra");
 
         ProximaFase();
     }
 
-    public void ComprarTiroTriplo()
+    public void ComprarVidaExtra()
     {
-        SaveManager.Instance.DesbloquearUpgrade("TiroTriplo");
-        comprarTiroTriplo = true;
+        SaveManager.Instance.DesbloquearUpgrade("VidaExtra");
+        comprarVidaExtra = true;
 
         AtualizarReceitas();
     }
     public void ProximaFase()
     {
-        bool tiroTriplo = SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo");
+        bool vidaExtra = SaveManager.Instance.UpgradeDesbloqueado("VidaExtra");
 
-        if (tiroTriplo)
+        if (vidaExtra)
         {
             Debug.Log("tem o upgrade");
             painel.SetActive(true);
