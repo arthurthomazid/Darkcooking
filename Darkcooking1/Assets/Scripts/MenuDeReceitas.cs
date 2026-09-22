@@ -29,8 +29,6 @@ public class RecipeMenu : MonoBehaviour
         int macas = SaveManager.Instance.GetQuantidade(TipoComida.Maca);
         int cenouras = SaveManager.Instance.GetQuantidade(TipoComida.Cenoura);
         int alfaces = SaveManager.Instance.GetQuantidade(TipoComida.Alface);
-        int batatas = SaveManager.Instance.GetQuantidade(TipoComida.Batata);
-        int abobora = SaveManager.Instance.GetQuantidade(TipoComida.Abobora);
 
         //Atualiza os textos
         textoMaca.text = $"Maçãs:{macas}/10";

@@ -65,6 +65,6 @@ public class SaveManager : MonoBehaviour
         bool vidaExtra = UpgradeDesbloqueado("VidaExtra");
 
         // retorna true se ambos forem desbloqueados
-        return velocidade && tiroTriplo && tiroDanoExtra;
+        return velocidade && tiroTriplo && tiroDanoExtra && vidaExtra;
     }
 }

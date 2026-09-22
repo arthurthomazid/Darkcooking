@@ -8,6 +8,8 @@ public enum TipoComida
     Alface,
     Abobora,
     Batata,
+    Tomate,
+    Pimenta,
     Boss
 }
 
