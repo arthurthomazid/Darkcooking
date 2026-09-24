@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e574d427a46a4342a00e202c41f5e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  _speed: 6
+  _speed: 6.5
   bullet: {fileID: 1663630282678886811, guid: ce18b98d68ec1a740bad2481794e8203, type: 3}
   life: 5
   vida: {fileID: 1491619451}

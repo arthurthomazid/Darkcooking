@@ -11,7 +11,7 @@ public class Recipe3Menu : MonoBehaviour
     public TMP_Text textoTomate;
     public TMP_Text textoPimenta;
 
-    public bool comprarVidaExtra;
+    public bool comprarTiroTriplo;
     public GameObject painel;
 
     void OnEnable()
@@ -29,8 +29,8 @@ public class Recipe3Menu : MonoBehaviour
         int tomate = SaveManager.Instance.GetQuantidade(TipoComida.Tomate);
         int pimenta = SaveManager.Instance.GetQuantidade(TipoComida.Pimenta);
 
-        textoTomate.text = $"Batatas:{tomate}/8";
-        textoPimenta.text = $"Aboboras:{pimenta}/8";
+        textoTomate.text = $"Tomates:{tomate}/8";
+        textoPimenta.text = $"Pimentas:{pimenta}/8";
 
         tiroTriploButton.interactable =
             tomate >= 8 &&
@@ -43,7 +43,7 @@ public class Recipe3Menu : MonoBehaviour
     public void ComprarTiroTriplo()
     {
         SaveManager.Instance.DesbloquearUpgrade("TiroTriplo");
-        comprarVidaExtra = true;
+        comprarTiroTriplo = true;
 
         AtualizarReceitas();
     }
