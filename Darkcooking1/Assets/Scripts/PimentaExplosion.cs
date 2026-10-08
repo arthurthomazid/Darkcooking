@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class BeterrabaExplosion : MonoBehaviour
+public class PimentaExplosion : MonoBehaviour
 {
     [Header("Configuração da explosão")]
     public float tempoParaExplodir = 5f;
@@ -23,7 +23,7 @@ public class BeterrabaExplosion : MonoBehaviour
         }
     }
 
-    void Explodir()
+    public void Explodir()
     {
         //Cria o efeito visual da explosão
         if (efeitoExplosao != null)

@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
-  tipo: 0
+  tipo: 6
   vidaMaxima: 30
   dano: 1
 --- !u!61 &3967988430134852674

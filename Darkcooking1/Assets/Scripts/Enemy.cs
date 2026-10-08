@@ -28,7 +28,6 @@ public class Enemy : MonoBehaviour
     public int dano;
 
     private int vidaAtual;
-    public CebolaFlash efeitoTela;
 
     void Start()
     {
@@ -62,11 +61,6 @@ public class Enemy : MonoBehaviour
             SaveManager.Instance.RegistrarMorte(tipo);
         }
 
-        // Mostra o efeito na tela
-        if (efeitoTela != null)
-        {
-            efeitoTela.Mostrar();
-        }
 
         Destroy(gameObject);
     }

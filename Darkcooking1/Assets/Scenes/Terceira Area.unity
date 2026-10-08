@@ -450,8 +450,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Agora que voc\xEA conseguiu fazer seus pratos pela manh\xE3 e tarde, voc\xEA
-    sente que a noite ir\xE1 vir mais deles"
+  m_text: 'algo algo
+
+    dps escrever por favor'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -663,7 +664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.27059, y: -7.272352}
+  m_AnchoredPosition: {x: 120, y: -7.272352}
   m_SizeDelta: {x: 213.4841, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &321512773
@@ -5659,8 +5660,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -235.56207, y: -25.504631}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -210.5621, y: -25.504631}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446651836
 MonoBehaviour:
@@ -5682,7 +5683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5532634110597869042, guid: 5e8a75bacbca9b14d82f450cf76276c2, type: 3}
+  m_Sprite: {fileID: -7196109530798835033, guid: 2f61864a96c68ae4caed11e4e4f464e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7219,7 +7220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119.75342, y: 25.324701}
+  m_AnchoredPosition: {x: -59.7534, y: 25.324701}
   m_SizeDelta: {x: 131.6173, y: 50.6494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121288376
@@ -7450,7 +7451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.762085, y: -25.504633}
+  m_AnchoredPosition: {x: -50.76208, y: -25.504633}
   m_SizeDelta: {x: 162.0042, y: 63.2228}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1200341709
@@ -9258,7 +9259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70.84255, y: -35.6812}
+  m_AnchoredPosition: {x: 120, y: -35.6812}
   m_SizeDelta: {x: 212.6281, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2135373419
