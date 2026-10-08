@@ -1132,11 +1132,112 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Size.x
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4245844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190677963710631855, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659947176740239308, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8315048008487321233, guid: 7eb9bd0ee9eebdd4daa3aa44a0d5c588, type: 3}
+    - target: {fileID: 7659947176740239308, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659947176740239308, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659947176740239308, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6226415
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4699593150729776262, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 331888409}
   m_SourcePrefab: {fileID: 100100000, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+--- !u!1 &331888400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4699593150729776262, guid: 3d3393c39bb79304aa9185693f555523, type: 3}
+  m_PrefabInstance: {fileID: 331888399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!68 &331888409
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331888400}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.65999985, y: 1.2}
+  - {x: -1.6375561, y: 0.58710915}
+  - {x: -1.6201009, y: 0.014925152}
+  - {x: -0.79661787, y: -1.0392177}
+  - {x: -0.012755425, y: -1.3000001}
+  - {x: 0.25619027, y: -1.2257254}
+  - {x: 0.9980827, y: -1.0208373}
+  - {x: 1.5218763, y: -0.20384824}
+  - {x: 1.56, y: 0.59999996}
+  - {x: 1.1889149, y: 1.0826511}
+  - {x: 0.5936344, y: 1.2208462}
+  - {x: -0.6400002, y: 1.2}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &366037791
 GameObject:
   m_ObjectHideFlags: 0
