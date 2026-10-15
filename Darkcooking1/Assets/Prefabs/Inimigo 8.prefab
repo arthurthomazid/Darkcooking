@@ -138,7 +138,7 @@ MonoBehaviour:
   tipo: 0
   vidaMaxima: 4
   dano: 0
-  efeitoTela: {fileID: 0}
+  efeitomorteprefab: {fileID: 1033019803591943634, guid: f43aa3ab9aeef6545a9810c8c88beeaa, type: 3}
 --- !u!82 &2766751928416273554
 AudioSource:
   m_ObjectHideFlags: 0

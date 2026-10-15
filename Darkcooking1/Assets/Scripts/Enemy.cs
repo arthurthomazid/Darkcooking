@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
     public int dano;
 
     private int vidaAtual;
+    public GameObject efeitomorteprefab;
 
     void Start()
     {
@@ -60,6 +61,8 @@ public class Enemy : MonoBehaviour
         {
             SaveManager.Instance.RegistrarMorte(tipo);
         }
+
+        Instantiate(efeitomorteprefab, transform.position, Quaternion.identity);
 
 
         Destroy(gameObject);

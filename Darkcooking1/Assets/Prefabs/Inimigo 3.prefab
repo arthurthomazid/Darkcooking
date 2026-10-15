@@ -137,6 +137,8 @@ MonoBehaviour:
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
   tipo: 2
   vidaMaxima: 8
+  dano: 0
+  efeitomorteprefab: {fileID: 1033019803591943634, guid: f43aa3ab9aeef6545a9810c8c88beeaa, type: 3}
 --- !u!61 &2817851524745257058
 BoxCollider2D:
   m_ObjectHideFlags: 0
