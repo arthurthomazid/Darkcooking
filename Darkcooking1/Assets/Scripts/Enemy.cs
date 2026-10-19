@@ -10,6 +10,7 @@ public enum TipoComida
     Batata,
     Tomate,
     Pimenta,
+    Cebola,
     Boss
 }
 
@@ -20,6 +21,9 @@ public class Enemy : MonoBehaviour
 
     private AudioSource audioSource;
 
+    [Header("Efeito na Tela")]
+    public bool CebolaTela = false;
+
     [Header("Tipo do Inimigo")]
     public TipoComida tipo;
 
@@ -28,6 +32,7 @@ public class Enemy : MonoBehaviour
     public int dano;
 
     private int vidaAtual;
+    public CebolaFlash efeitoTela;
     public GameObject efeitomorteprefab;
 
     void Start()
@@ -61,9 +66,17 @@ public class Enemy : MonoBehaviour
         {
             SaveManager.Instance.RegistrarMorte(tipo);
         }
+        if (CebolaTela)
+        {
+            CebolaFlash efeitoTela = FindAnyObjectByType<CebolaFlash>();
+
+            if (efeitoTela != null)
+            {
+                efeitoTela.Mostrar();
+            }
+        }
 
         Instantiate(efeitomorteprefab, transform.position, Quaternion.identity);
-
 
         Destroy(gameObject);
     }
