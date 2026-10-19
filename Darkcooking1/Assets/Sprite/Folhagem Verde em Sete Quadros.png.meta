@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 205d8118c1dd0b6499e2b6c7ebae000d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4037332209313253218
+    second: Folhagem Verde em Sete Quadros_0
+  - first:
+      213: 8173177606171593936
+    second: Folhagem Verde em Sete Quadros_1
+  - first:
+      213: 1394131222058231434
+    second: Folhagem Verde em Sete Quadros_2
+  - first:
+      213: 2194344104099438357
+    second: Folhagem Verde em Sete Quadros_3
+  - first:
+      213: 739388872550288606
+    second: Folhagem Verde em Sete Quadros_4
+  - first:
+      213: 1133071049023297068
+    second: Folhagem Verde em Sete Quadros_5
+  - first:
+      213: 3598652205430922000
+    second: Folhagem Verde em Sete Quadros_6
+  - first:
+      213: 1201611768852603770
+    second: Folhagem Verde em Sete Quadros_7
+  - first:
+      213: -584201282935963674
+    second: Folhagem Verde em Sete Quadros_8
+  - first:
+      213: 3125172085061467543
+    second: Folhagem Verde em Sete Quadros_9
+  - first:
+      213: -7220500791641984485
+    second: Folhagem Verde em Sete Quadros_10
+  - first:
+      213: -5668717113806850539
+    second: Folhagem Verde em Sete Quadros_11
+  - first:
+      213: -7930106702903669408
+    second: Folhagem Verde em Sete Quadros_12
+  - first:
+      213: -4350921381378643339
+    second: Folhagem Verde em Sete Quadros_13
+  - first:
+      213: -8276124161078045358
+    second: Folhagem Verde em Sete Quadros_14
+  - first:
+      213: -3641802364468548493
+    second: Folhagem Verde em Sete Quadros_15
+  - first:
+      213: 7235162942218366407
+    second: Folhagem Verde em Sete Quadros_16
+  - first:
+      213: -1789424814687231274
+    second: Folhagem Verde em Sete Quadros_17
+  - first:
+      213: 1944563508218866678
+    second: Folhagem Verde em Sete Quadros_18
+  - first:
+      213: -2420325918174101061
+    second: Folhagem Verde em Sete Quadros_19
+  - first:
+      213: 1039025718887360098
+    second: Folhagem Verde em Sete Quadros_20
+  - first:
+      213: -3178678988502555523
+    second: Folhagem Verde em Sete Quadros_21
+  - first:
+      213: 5404512466906033601
+    second: Folhagem Verde em Sete Quadros_22
+  - first:
+      213: -6463124059518699762
+    second: Folhagem Verde em Sete Quadros_23
+  - first:
+      213: -5839277292859797326
+    second: Folhagem Verde em Sete Quadros_24
+  - first:
+      213: -4023715986181706699
+    second: Folhagem Verde em Sete Quadros_25
+  - first:
+      213: -5762627205095979160
+    second: Folhagem Verde em Sete Quadros_26
+  - first:
+      213: 2984674513043799435
+    second: Folhagem Verde em Sete Quadros_27
+  - first:
+      213: -8250000239709516707
+    second: Folhagem Verde em Sete Quadros_28
+  - first:
+      213: 3296553861999645275
+    second: Folhagem Verde em Sete Quadros_29
+  - first:
+      213: -4707728099543811286
+    second: Folhagem Verde em Sete Quadros_30
+  - first:
+      213: 2346829005906000177
+    second: Folhagem Verde em Sete Quadros_31
+  - first:
+      213: 3943119707797329802
+    second: Folhagem Verde em Sete Quadros_32
+  - first:
+      213: 1215174748898588087
+    second: Folhagem Verde em Sete Quadros_33
+  - first:
+      213: 6401071342431812152
+    second: Folhagem Verde em Sete Quadros_34
+  - first:
+      213: -1472550004416254352
+    second: Folhagem Verde em Sete Quadros_35
+  - first:
+      213: -6471736304329063925
+    second: Folhagem Verde em Sete Quadros_36
+  - first:
+      213: -8427288119064485271
+    second: Folhagem Verde em Sete Quadros_37
+  - first:
+      213: 3962251342167602223
+    second: Folhagem Verde em Sete Quadros_38
+  - first:
+      213: 8555346080720171644
+    second: Folhagem Verde em Sete Quadros_39
+  - first:
+      213: -931907065004284088
+    second: Folhagem Verde em Sete Quadros_40
+  - first:
+      213: -1056131595334922741
+    second: Folhagem Verde em Sete Quadros_41
+  - first:
+      213: 4343262382956535788
+    second: Folhagem Verde em Sete Quadros_42
+  - first:
+      213: -3346805817591855825
+    second: Folhagem Verde em Sete Quadros_43
+  - first:
+      213: 2461928831381220160
+    second: Folhagem Verde em Sete Quadros_44
+  - first:
+      213: -8347402381443011013
+    second: Folhagem Verde em Sete Quadros_45
+  - first:
+      213: -9186080959628043417
+    second: Folhagem Verde em Sete Quadros_46
+  - first:
+      213: 7576123861594798908
+    second: Folhagem Verde em Sete Quadros_47
+  - first:
+      213: 1316645171611414054
+    second: Folhagem Verde em Sete Quadros_48
+  - first:
+      213: -8562540411317724739
+    second: Folhagem Verde em Sete Quadros_49
+  - first:
+      213: 658830817838754740
+    second: Folhagem Verde em Sete Quadros_50
+  - first:
+      213: -5373181082162812686
+    second: Folhagem Verde em Sete Quadros_51
+  - first:
+      213: -528196124838463754
+    second: Folhagem Verde em Sete Quadros_52
+  - first:
+      213: -4305902893937238229
+    second: Folhagem Verde em Sete Quadros_53
+  - first:
+      213: 1643880808862524722
+    second: Folhagem Verde em Sete Quadros_54
+  - first:
+      213: -6498207731938412207
+    second: Folhagem Verde em Sete Quadros_55
+  - first:
+      213: -6848007813002941039
+    second: Folhagem Verde em Sete Quadros_56
+  - first:
+      213: -1510486855794555459
+    second: Folhagem Verde em Sete Quadros_57
+  - first:
+      213: 799725451810601209
+    second: Folhagem Verde em Sete Quadros_58
+  - first:
+      213: -7916329155674822576
+    second: Folhagem Verde em Sete Quadros_59
+  - first:
+      213: -3865588409581994824
+    second: Folhagem Verde em Sete Quadros_60
+  - first:
+      213: -1572799538861388962
+    second: Folhagem Verde em Sete Quadros_61
+  - first:
+      213: 4900481088752454092
+    second: Folhagem Verde em Sete Quadros_62
+  - first:
+      213: -642813436509748256
+    second: Folhagem Verde em Sete Quadros_63
+  - first:
+      213: -56014626509087519
+    second: Folhagem Verde em Sete Quadros_64
+  - first:
+      213: 1352885608587697062
+    second: Folhagem Verde em Sete Quadros_65
+  - first:
+      213: -6343469671541617598
+    second: Folhagem Verde em Sete Quadros_66
+  - first:
+      213: -2200569803132666336
+    second: Folhagem Verde em Sete Quadros_67
+  - first:
+      213: -4794200779483419659
+    second: Folhagem Verde em Sete Quadros_68
+  - first:
+      213: -5097652140033278216
+    second: Folhagem Verde em Sete Quadros_69
+  - first:
+      213: 4489139708638715272
+    second: Folhagem Verde em Sete Quadros_70
+  - first:
+      213: -1191840021941298438
+    second: Folhagem Verde em Sete Quadros_71
+  - first:
+      213: 1866666475586630098
+    second: Folhagem Verde em Sete Quadros_72
+  - first:
+      213: -1489270461852554934
+    second: Folhagem Verde em Sete Quadros_73
+  - first:
+      213: 6366834731597175683
+    second: Folhagem Verde em Sete Quadros_74
+  - first:
+      213: -2748441607675943235
+    second: Folhagem Verde em Sete Quadros_75
+  - first:
+      213: 1372026686478186988
+    second: Folhagem Verde em Sete Quadros_76
+  - first:
+      213: 8239523988500729613
+    second: Folhagem Verde em Sete Quadros_77
+  - first:
+      213: 8303873818488725200
+    second: Folhagem Verde em Sete Quadros_78
+  - first:
+      213: -6647361798839161539
+    second: Folhagem Verde em Sete Quadros_79
+  - first:
+      213: -5257417289926283778
+    second: Folhagem Verde em Sete Quadros_80
+  - first:
+      213: 2135163273664514744
+    second: Folhagem Verde em Sete Quadros_81
+  - first:
+      213: 418728689033289529
+    second: Folhagem Verde em Sete Quadros_82
+  - first:
+      213: 8948682039171619402
+    second: Folhagem Verde em Sete Quadros_83
+  - first:
+      213: 9147442095919227143
+    second: Folhagem Verde em Sete Quadros_84
+  - first:
+      213: -3410064328475743551
+    second: Folhagem Verde em Sete Quadros_85
+  - first:
+      213: -3467118934922851877
+    second: Folhagem Verde em Sete Quadros_86
+  - first:
+      213: -7223758494083817467
+    second: Folhagem Verde em Sete Quadros_87
+  - first:
+      213: -8985099956133588539
+    second: Folhagem Verde em Sete Quadros_88
+  - first:
+      213: 9064355611285313840
+    second: Folhagem Verde em Sete Quadros_89
+  - first:
+      213: -3400674603162056063
+    second: Folhagem Verde em Sete Quadros_90
+  - first:
+      213: 821026352064675394
+    second: Folhagem Verde em Sete Quadros_91
+  - first:
+      213: 1735742163699786855
+    second: Folhagem Verde em Sete Quadros_92
+  - first:
+      213: -1963381401692215646
+    second: Folhagem Verde em Sete Quadros_93
+  - first:
+      213: 939333849016826113
+    second: Folhagem Verde em Sete Quadros_94
+  - first:
+      213: 8209002733102939375
+    second: Folhagem Verde em Sete Quadros_95
+  - first:
+      213: 8674698991308981122
+    second: Folhagem Verde em Sete Quadros_96
+  - first:
+      213: 739067857203839907
+    second: Folhagem Verde em Sete Quadros_97
+  - first:
+      213: 7061450266717858776
+    second: Folhagem Verde em Sete Quadros_98
+  - first:
+      213: 1173605100259533856
+    second: Folhagem Verde em Sete Quadros_99
+  - first:
+      213: 4860514416158384225
+    second: Folhagem Verde em Sete Quadros_100
+  - first:
+      213: -2253593109785017251
+    second: Folhagem Verde em Sete Quadros_101
+  - first:
+      213: -1141894880057354027
+    second: Folhagem Verde em Sete Quadros_102
+  - first:
+      213: -6384360708553968199
+    second: Folhagem Verde em Sete Quadros_103
+  - first:
+      213: 1517641413398159713
+    second: Folhagem Verde em Sete Quadros_104
+  - first:
+      213: -1199078592231468899
+    second: Folhagem Verde em Sete Quadros_105
+  - first:
+      213: -310028282779631080
+    second: Folhagem Verde em Sete Quadros_106
+  - first:
+      213: 5323906069945164539
+    second: Folhagem Verde em Sete Quadros_107
+  - first:
+      213: -6617710149703441172
+    second: Folhagem Verde em Sete Quadros_108
+  - first:
+      213: -6349023176091064372
+    second: Folhagem Verde em Sete Quadros_109
+  - first:
+      213: 5406703941136841708
+    second: Folhagem Verde em Sete Quadros_110
+  - first:
+      213: 6377653655896487336
+    second: Folhagem Verde em Sete Quadros_111
+  - first:
+      213: -2881703973517582722
+    second: Folhagem Verde em Sete Quadros_112
+  - first:
+      213: -7558201106815206158
+    second: Folhagem Verde em Sete Quadros_113
+  - first:
+      213: 7343086505558329410
+    second: Folhagem Verde em Sete Quadros_114
+  - first:
+      213: 7364251497071479885
+    second: Folhagem Verde em Sete Quadros_115
+  - first:
+      213: -6388180972368555795
+    second: Folhagem Verde em Sete Quadros_116
+  - first:
+      213: -8493371900362471721
+    second: Folhagem Verde em Sete Quadros_117
+  - first:
+      213: 5987324642940073990
+    second: Folhagem Verde em Sete Quadros_118
+  - first:
+      213: -285624697580880283
+    second: Folhagem Verde em Sete Quadros_119
+  - first:
+      213: -7778210769345522922
+    second: Folhagem Verde em Sete Quadros_120
+  - first:
+      213: 4474771886157861876
+    second: Folhagem Verde em Sete Quadros_121
+  - first:
+      213: -3505072938170410996
+    second: Folhagem Verde em Sete Quadros_122
+  - first:
+      213: -8753522974129822927
+    second: Folhagem Verde em Sete Quadros_123
+  - first:
+      213: 8233901742066755436
+    second: Folhagem Verde em Sete Quadros_124
+  - first:
+      213: -7255106572076046883
+    second: Folhagem Verde em Sete Quadros_125
+  - first:
+      213: -550577748405689499
+    second: Folhagem Verde em Sete Quadros_126
+  - first:
+      213: -8018539976795449233
+    second: Folhagem Verde em Sete Quadros_127
+  - first:
+      213: -5247804151407006979
+    second: Folhagem Verde em Sete Quadros_128
+  - first:
+      213: -3118552743674569896
+    second: Folhagem Verde em Sete Quadros_129
+  - first:
+      213: 7467765402454954448
+    second: Folhagem Verde em Sete Quadros_130
+  - first:
+      213: 3992462078063085558
+    second: Folhagem Verde em Sete Quadros_131
+  - first:
+      213: -895605920088536085
+    second: Folhagem Verde em Sete Quadros_132
+  - first:
+      213: -242997924742252927
+    second: Folhagem Verde em Sete Quadros_133
+  - first:
+      213: -1295092072480983404
+    second: Folhagem Verde em Sete Quadros_134
+  - first:
+      213: 2307516919019195701
+    second: Folhagem Verde em Sete Quadros_135
+  - first:
+      213: 8713673596373649265
+    second: Folhagem Verde em Sete Quadros_136
+  - first:
+      213: 1234836624620348342
+    second: Folhagem Verde em Sete Quadros_137
+  - first:
+      213: 8034445579121993934
+    second: Folhagem Verde em Sete Quadros_138
+  - first:
+      213: -997511787235372529
+    second: Folhagem Verde em Sete Quadros_139
+  - first:
+      213: 8318696695332049721
+    second: Folhagem Verde em Sete Quadros_140
+  - first:
+      213: 3811524505069994651
+    second: Folhagem Verde em Sete Quadros_141
+  - first:
+      213: -7458990404352866834
+    second: Folhagem Verde em Sete Quadros_142
+  - first:
+      213: -4191911958503326101
+    second: Folhagem Verde em Sete Quadros_143
+  - first:
+      213: 7129117775531513026
+    second: Folhagem Verde em Sete Quadros_144
+  - first:
+      213: 8638196553013417324
+    second: Folhagem Verde em Sete Quadros_145
+  - first:
+      213: 8403930033128133228
+    second: Folhagem Verde em Sete Quadros_146
+  - first:
+      213: -20573912841545356
+    second: Folhagem Verde em Sete Quadros_147
+  - first:
+      213: -4973773834176096099
+    second: Folhagem Verde em Sete Quadros_148
+  - first:
+      213: -8605507101784443859
+    second: Folhagem Verde em Sete Quadros_149
+  - first:
+      213: -1395025659677333030
+    second: Folhagem Verde em Sete Quadros_150
+  - first:
+      213: 1716689709238013216
+    second: Folhagem Verde em Sete Quadros_151
+  - first:
+      213: -6302634657932997407
+    second: Folhagem Verde em Sete Quadros_152
+  - first:
+      213: 1354464452279140030
+    second: Folhagem Verde em Sete Quadros_153
+  - first:
+      213: 6559394215914913840
+    second: Folhagem Verde em Sete Quadros_154
+  - first:
+      213: -5539912585799231194
+    second: Folhagem Verde em Sete Quadros_155
+  - first:
+      213: 136652766836848538
+    second: Folhagem Verde em Sete Quadros_156
+  - first:
+      213: 8483298068478570467
+    second: Folhagem Verde em Sete Quadros_157
+  - first:
+      213: 4580752749845841527
+    second: Folhagem Verde em Sete Quadros_158
+  - first:
+      213: 1131322974654534101
+    second: Folhagem Verde em Sete Quadros_159
+  - first:
+      213: 7373625285657214836
+    second: Folhagem Verde em Sete Quadros_160
+  - first:
+      213: -864050974667994615
+    second: Folhagem Verde em Sete Quadros_161
+  - first:
+      213: 5970658509623076250
+    second: Folhagem Verde em Sete Quadros_162
+  - first:
+      213: 5223345117977295894
+    second: Folhagem Verde em Sete Quadros_163
+  - first:
+      213: 2898164022590777820
+    second: Folhagem Verde em Sete Quadros_164
+  - first:
+      213: 7364737284104366299
+    second: Folhagem Verde em Sete Quadros_165
+  - first:
+      213: 5262060761919059973
+    second: Folhagem Verde em Sete Quadros_166
+  - first:
+      213: -1134688785272559592
+    second: Folhagem Verde em Sete Quadros_167
+  - first:
+      213: -8697756218858029710
+    second: Folhagem Verde em Sete Quadros_168
+  - first:
+      213: -6218106734622719384
+    second: Folhagem Verde em Sete Quadros_169
+  - first:
+      213: 1862323815942096949
+    second: Folhagem Verde em Sete Quadros_170
+  - first:
+      213: 2101162175671857252
+    second: Folhagem Verde em Sete Quadros_171
+  - first:
+      213: -5027973454356681701
+    second: Folhagem Verde em Sete Quadros_172
+  - first:
+      213: 2413778077915474911
+    second: Folhagem Verde em Sete Quadros_173
+  - first:
+      213: 3452051371907771145
+    second: Folhagem Verde em Sete Quadros_174
+  - first:
+      213: 3908955837713704714
+    second: Folhagem Verde em Sete Quadros_175
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 195
+        width: 309
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2670c50f04c770830800000000000000
+      internalID: 4037332209313253218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 193
+        width: 289
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc090ebab5fc6170800000000000000
+      internalID: 8173177606171593936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_2
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 197
+        width: 270
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86ef05c5f2f85310800000000000000
+      internalID: 1394131222058231434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_3
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 197
+        width: 280
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fd1d72650e37e10800000000000000
+      internalID: 2194344104099438357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_4
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 193
+        width: 272
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc8c3b1346d24a00800000000000000
+      internalID: 739388872550288606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_5
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 195
+        width: 260
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c261056ad1a79bf00800000000000000
+      internalID: 1133071049023297068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Folhagem Verde em Sete Quadros_6
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 197
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bd2e64d1bf0f130800000000000000
+      internalID: 3598652205430922000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fc6e6b0515730b04db69d9773c4943cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Folhagem Verde em Sete Quadros_0: 4037332209313253218
+      Folhagem Verde em Sete Quadros_1: 8173177606171593936
+      Folhagem Verde em Sete Quadros_10: -7220500791641984485
+      Folhagem Verde em Sete Quadros_100: 4860514416158384225
+      Folhagem Verde em Sete Quadros_101: -2253593109785017251
+      Folhagem Verde em Sete Quadros_102: -1141894880057354027
+      Folhagem Verde em Sete Quadros_103: -6384360708553968199
+      Folhagem Verde em Sete Quadros_104: 1517641413398159713
+      Folhagem Verde em Sete Quadros_105: -1199078592231468899
+      Folhagem Verde em Sete Quadros_106: -310028282779631080
+      Folhagem Verde em Sete Quadros_107: 5323906069945164539
+      Folhagem Verde em Sete Quadros_108: -6617710149703441172
+      Folhagem Verde em Sete Quadros_109: -6349023176091064372
+      Folhagem Verde em Sete Quadros_11: -5668717113806850539
+      Folhagem Verde em Sete Quadros_110: 5406703941136841708
+      Folhagem Verde em Sete Quadros_111: 6377653655896487336
+      Folhagem Verde em Sete Quadros_112: -2881703973517582722
+      Folhagem Verde em Sete Quadros_113: -7558201106815206158
+      Folhagem Verde em Sete Quadros_114: 7343086505558329410
+      Folhagem Verde em Sete Quadros_115: 7364251497071479885
+      Folhagem Verde em Sete Quadros_116: -6388180972368555795
+      Folhagem Verde em Sete Quadros_117: -8493371900362471721
+      Folhagem Verde em Sete Quadros_118: 5987324642940073990
+      Folhagem Verde em Sete Quadros_119: -285624697580880283
+      Folhagem Verde em Sete Quadros_12: -7930106702903669408
+      Folhagem Verde em Sete Quadros_120: -7778210769345522922
+      Folhagem Verde em Sete Quadros_121: 4474771886157861876
+      Folhagem Verde em Sete Quadros_122: -3505072938170410996
+      Folhagem Verde em Sete Quadros_123: -8753522974129822927
+      Folhagem Verde em Sete Quadros_124: 8233901742066755436
+      Folhagem Verde em Sete Quadros_125: -7255106572076046883
+      Folhagem Verde em Sete Quadros_126: -550577748405689499
+      Folhagem Verde em Sete Quadros_127: -8018539976795449233
+      Folhagem Verde em Sete Quadros_128: -5247804151407006979
+      Folhagem Verde em Sete Quadros_129: -3118552743674569896
+      Folhagem Verde em Sete Quadros_13: -4350921381378643339
+      Folhagem Verde em Sete Quadros_130: 7467765402454954448
+      Folhagem Verde em Sete Quadros_131: 3992462078063085558
+      Folhagem Verde em Sete Quadros_132: -895605920088536085
+      Folhagem Verde em Sete Quadros_133: -242997924742252927
+      Folhagem Verde em Sete Quadros_134: -1295092072480983404
+      Folhagem Verde em Sete Quadros_135: 2307516919019195701
+      Folhagem Verde em Sete Quadros_136: 8713673596373649265
+      Folhagem Verde em Sete Quadros_137: 1234836624620348342
+      Folhagem Verde em Sete Quadros_138: 8034445579121993934
+      Folhagem Verde em Sete Quadros_139: -997511787235372529
+      Folhagem Verde em Sete Quadros_14: -8276124161078045358
+      Folhagem Verde em Sete Quadros_140: 8318696695332049721
+      Folhagem Verde em Sete Quadros_141: 3811524505069994651
+      Folhagem Verde em Sete Quadros_142: -7458990404352866834
+      Folhagem Verde em Sete Quadros_143: -4191911958503326101
+      Folhagem Verde em Sete Quadros_144: 7129117775531513026
+      Folhagem Verde em Sete Quadros_145: 8638196553013417324
+      Folhagem Verde em Sete Quadros_146: 8403930033128133228
+      Folhagem Verde em Sete Quadros_147: -20573912841545356
+      Folhagem Verde em Sete Quadros_148: -4973773834176096099
+      Folhagem Verde em Sete Quadros_149: -8605507101784443859
+      Folhagem Verde em Sete Quadros_15: -3641802364468548493
+      Folhagem Verde em Sete Quadros_150: -1395025659677333030
+      Folhagem Verde em Sete Quadros_151: 1716689709238013216
+      Folhagem Verde em Sete Quadros_152: -6302634657932997407
+      Folhagem Verde em Sete Quadros_153: 1354464452279140030
+      Folhagem Verde em Sete Quadros_154: 6559394215914913840
+      Folhagem Verde em Sete Quadros_155: -5539912585799231194
+      Folhagem Verde em Sete Quadros_156: 136652766836848538
+      Folhagem Verde em Sete Quadros_157: 8483298068478570467
+      Folhagem Verde em Sete Quadros_158: 4580752749845841527
+      Folhagem Verde em Sete Quadros_159: 1131322974654534101
+      Folhagem Verde em Sete Quadros_16: 7235162942218366407
+      Folhagem Verde em Sete Quadros_160: 7373625285657214836
+      Folhagem Verde em Sete Quadros_161: -864050974667994615
+      Folhagem Verde em Sete Quadros_162: 5970658509623076250
+      Folhagem Verde em Sete Quadros_163: 5223345117977295894
+      Folhagem Verde em Sete Quadros_164: 2898164022590777820
+      Folhagem Verde em Sete Quadros_165: 7364737284104366299
+      Folhagem Verde em Sete Quadros_166: 5262060761919059973
+      Folhagem Verde em Sete Quadros_167: -1134688785272559592
+      Folhagem Verde em Sete Quadros_168: -8697756218858029710
+      Folhagem Verde em Sete Quadros_169: -6218106734622719384
+      Folhagem Verde em Sete Quadros_17: -1789424814687231274
+      Folhagem Verde em Sete Quadros_170: 1862323815942096949
+      Folhagem Verde em Sete Quadros_171: 2101162175671857252
+      Folhagem Verde em Sete Quadros_172: -5027973454356681701
+      Folhagem Verde em Sete Quadros_173: 2413778077915474911
+      Folhagem Verde em Sete Quadros_174: 3452051371907771145
+      Folhagem Verde em Sete Quadros_175: 3908955837713704714
+      Folhagem Verde em Sete Quadros_18: 1944563508218866678
+      Folhagem Verde em Sete Quadros_19: -2420325918174101061
+      Folhagem Verde em Sete Quadros_2: 1394131222058231434
+      Folhagem Verde em Sete Quadros_20: 1039025718887360098
+      Folhagem Verde em Sete Quadros_21: -3178678988502555523
+      Folhagem Verde em Sete Quadros_22: 5404512466906033601
+      Folhagem Verde em Sete Quadros_23: -6463124059518699762
+      Folhagem Verde em Sete Quadros_24: -5839277292859797326
+      Folhagem Verde em Sete Quadros_25: -4023715986181706699
+      Folhagem Verde em Sete Quadros_26: -5762627205095979160
+      Folhagem Verde em Sete Quadros_27: 2984674513043799435
+      Folhagem Verde em Sete Quadros_28: -8250000239709516707
+      Folhagem Verde em Sete Quadros_29: 3296553861999645275
+      Folhagem Verde em Sete Quadros_3: 2194344104099438357
+      Folhagem Verde em Sete Quadros_30: -4707728099543811286
+      Folhagem Verde em Sete Quadros_31: 2346829005906000177
+      Folhagem Verde em Sete Quadros_32: 3943119707797329802
+      Folhagem Verde em Sete Quadros_33: 1215174748898588087
+      Folhagem Verde em Sete Quadros_34: 6401071342431812152
+      Folhagem Verde em Sete Quadros_35: -1472550004416254352
+      Folhagem Verde em Sete Quadros_36: -6471736304329063925
+      Folhagem Verde em Sete Quadros_37: -8427288119064485271
+      Folhagem Verde em Sete Quadros_38: 3962251342167602223
+      Folhagem Verde em Sete Quadros_39: 8555346080720171644
+      Folhagem Verde em Sete Quadros_4: 739388872550288606
+      Folhagem Verde em Sete Quadros_40: -931907065004284088
+      Folhagem Verde em Sete Quadros_41: -1056131595334922741
+      Folhagem Verde em Sete Quadros_42: 4343262382956535788
+      Folhagem Verde em Sete Quadros_43: -3346805817591855825
+      Folhagem Verde em Sete Quadros_44: 2461928831381220160
+      Folhagem Verde em Sete Quadros_45: -8347402381443011013
+      Folhagem Verde em Sete Quadros_46: -9186080959628043417
+      Folhagem Verde em Sete Quadros_47: 7576123861594798908
+      Folhagem Verde em Sete Quadros_48: 1316645171611414054
+      Folhagem Verde em Sete Quadros_49: -8562540411317724739
+      Folhagem Verde em Sete Quadros_5: 1133071049023297068
+      Folhagem Verde em Sete Quadros_50: 658830817838754740
+      Folhagem Verde em Sete Quadros_51: -5373181082162812686
+      Folhagem Verde em Sete Quadros_52: -528196124838463754
+      Folhagem Verde em Sete Quadros_53: -4305902893937238229
+      Folhagem Verde em Sete Quadros_54: 1643880808862524722
+      Folhagem Verde em Sete Quadros_55: -6498207731938412207
+      Folhagem Verde em Sete Quadros_56: -6848007813002941039
+      Folhagem Verde em Sete Quadros_57: -1510486855794555459
+      Folhagem Verde em Sete Quadros_58: 799725451810601209
+      Folhagem Verde em Sete Quadros_59: -7916329155674822576
+      Folhagem Verde em Sete Quadros_6: 3598652205430922000
+      Folhagem Verde em Sete Quadros_60: -3865588409581994824
+      Folhagem Verde em Sete Quadros_61: -1572799538861388962
+      Folhagem Verde em Sete Quadros_62: 4900481088752454092
+      Folhagem Verde em Sete Quadros_63: -642813436509748256
+      Folhagem Verde em Sete Quadros_64: -56014626509087519
+      Folhagem Verde em Sete Quadros_65: 1352885608587697062
+      Folhagem Verde em Sete Quadros_66: -6343469671541617598
+      Folhagem Verde em Sete Quadros_67: -2200569803132666336
+      Folhagem Verde em Sete Quadros_68: -4794200779483419659
+      Folhagem Verde em Sete Quadros_69: -5097652140033278216
+      Folhagem Verde em Sete Quadros_7: 1201611768852603770
+      Folhagem Verde em Sete Quadros_70: 4489139708638715272
+      Folhagem Verde em Sete Quadros_71: -1191840021941298438
+      Folhagem Verde em Sete Quadros_72: 1866666475586630098
+      Folhagem Verde em Sete Quadros_73: -1489270461852554934
+      Folhagem Verde em Sete Quadros_74: 6366834731597175683
+      Folhagem Verde em Sete Quadros_75: -2748441607675943235
+      Folhagem Verde em Sete Quadros_76: 1372026686478186988
+      Folhagem Verde em Sete Quadros_77: 8239523988500729613
+      Folhagem Verde em Sete Quadros_78: 8303873818488725200
+      Folhagem Verde em Sete Quadros_79: -6647361798839161539
+      Folhagem Verde em Sete Quadros_8: -584201282935963674
+      Folhagem Verde em Sete Quadros_80: -5257417289926283778
+      Folhagem Verde em Sete Quadros_81: 2135163273664514744
+      Folhagem Verde em Sete Quadros_82: 418728689033289529
+      Folhagem Verde em Sete Quadros_83: 8948682039171619402
+      Folhagem Verde em Sete Quadros_84: 9147442095919227143
+      Folhagem Verde em Sete Quadros_85: -3410064328475743551
+      Folhagem Verde em Sete Quadros_86: -3467118934922851877
+      Folhagem Verde em Sete Quadros_87: -7223758494083817467
+      Folhagem Verde em Sete Quadros_88: -8985099956133588539
+      Folhagem Verde em Sete Quadros_89: 9064355611285313840
+      Folhagem Verde em Sete Quadros_9: 3125172085061467543
+      Folhagem Verde em Sete Quadros_90: -3400674603162056063
+      Folhagem Verde em Sete Quadros_91: 821026352064675394
+      Folhagem Verde em Sete Quadros_92: 1735742163699786855
+      Folhagem Verde em Sete Quadros_93: -1963381401692215646
+      Folhagem Verde em Sete Quadros_94: 939333849016826113
+      Folhagem Verde em Sete Quadros_95: 8209002733102939375
+      Folhagem Verde em Sete Quadros_96: 8674698991308981122
+      Folhagem Verde em Sete Quadros_97: 739067857203839907
+      Folhagem Verde em Sete Quadros_98: 7061450266717858776
+      Folhagem Verde em Sete Quadros_99: 1173605100259533856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
