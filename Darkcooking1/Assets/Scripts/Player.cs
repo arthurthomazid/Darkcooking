@@ -10,8 +10,12 @@ public class Player : MonoBehaviour
     private Vector2 _movement;
     private Rigidbody2D _rb;
     public GameObject bullet;
+
     public float life = 5f;
     private float _lifeMax;
+
+    public float timerdisparo = 0.2f;
+    private float contador;
 
     [Header("HUD")]
     public TMP_Text vida;
@@ -19,6 +23,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         _lifeMax = life;
+        contador = timerdisparo;
         AtualizarHud();
         _rb = GetComponent<Rigidbody2D>();
         if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
@@ -41,25 +46,31 @@ public class Player : MonoBehaviour
     {
         _movement = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
         _rb.linearVelocity = _movement * _speed;
+        contador -= Time.deltaTime;
 
-
-        if (Input.GetButtonDown("Fire1")) //aciona o tiro
+        if (contador <= 0f) //aciona o tiro
         {
-            Instantiate(bullet, transform.position, transform.rotation);
-            if (SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"))
-            {
-                Instantiate(
-                    bullet,
-                    transform.position,
-                    Quaternion.Euler(0, 0, 20) //Quaternion representa rotação (x,y,z)
-                );
+            contador = timerdisparo;
+            Disparo();
+        }
+    }
 
-                Instantiate(
-                    bullet,
-                    transform.position,
-                    Quaternion.Euler(0, 0, -20)
-                 );
-            }
+    public void Disparo()
+    {
+        Instantiate(bullet, transform.position, transform.rotation);
+        if (SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo"))
+        {
+            Instantiate(
+                bullet,
+                transform.position,
+                Quaternion.Euler(0, 0, 20) //Quaternion representa rotação (x,y,z)
+            );
+
+            Instantiate(
+                bullet,
+                transform.position,
+                Quaternion.Euler(0, 0, -20)
+             );
         }
     }
 

@@ -1419,7 +1419,8 @@ MonoBehaviour:
   - {fileID: 8622192343043710033, guid: 66b848ebaf14be940812332da152d2a6, type: 3}
   - {fileID: 2240369485002906354, guid: 5f6456b2b4618d4439976c91a204a6b8, type: 3}
   - {fileID: 1455532505419841221, guid: 7a7a29e31cbd2ba418d25c4bbe0a5dd2, type: 3}
-  spawnInterval: 2.25
+  - {fileID: 8622192343043710033, guid: 66b848ebaf14be940812332da152d2a6, type: 3}
+  spawnInterval: 3
   minX: -8
   maxX: 8
   spawnY: 6
@@ -1749,6 +1750,7 @@ MonoBehaviour:
   _speed: 6
   bullet: {fileID: 1663630282678886811, guid: ce18b98d68ec1a740bad2481794e8203, type: 3}
   life: 5
+  timerdisparo: 0.2
   vida: {fileID: 1491619451}
 --- !u!61 &462453990
 BoxCollider2D:

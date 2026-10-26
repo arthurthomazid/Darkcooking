@@ -1648,6 +1648,7 @@ MonoBehaviour:
   _speed: 6.5
   bullet: {fileID: 1663630282678886811, guid: ce18b98d68ec1a740bad2481794e8203, type: 3}
   life: 5
+  timerdisparo: 0.2
   vida: {fileID: 1491619451}
 --- !u!61 &462453990
 BoxCollider2D:
