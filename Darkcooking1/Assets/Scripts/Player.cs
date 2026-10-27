@@ -23,8 +23,18 @@ public class Player : MonoBehaviour
     void Start()
     {
         _lifeMax = life;
-        contador = timerdisparo;
-        AtualizarHud();
+        if(SaveManager.Instance.UpgradeDesbloqueado("FireRateExtra"))
+        {
+            timerdisparo = 0.1f;
+            contador = timerdisparo;
+        }
+        else
+        {
+            contador = timerdisparo;
+        }
+
+            AtualizarHud();
+
         _rb = GetComponent<Rigidbody2D>();
         if (SaveManager.Instance.UpgradeDesbloqueado("Velocidade"))
         {

@@ -63,8 +63,9 @@ public class SaveManager : MonoBehaviour
         bool tiroTriplo = UpgradeDesbloqueado("TiroTriplo");
         bool tiroDanoExtra = UpgradeDesbloqueado("DanoExtra");
         bool vidaExtra = UpgradeDesbloqueado("VidaExtra");
+        bool fireRateExtra = UpgradeDesbloqueado("FireRateExtra");
 
-        // retorna true se ambos forem desbloqueados
-        return velocidade && tiroTriplo && tiroDanoExtra && vidaExtra;
+        // retorna true se forem desbloqueados
+        return velocidade && tiroTriplo && tiroDanoExtra && vidaExtra && fireRateExtra;
     }
 }
