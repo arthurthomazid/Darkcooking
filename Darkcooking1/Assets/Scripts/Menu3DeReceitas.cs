@@ -47,7 +47,7 @@ public class Recipe3Menu : MonoBehaviour
 
         fireRateExtraButton.interactable =
             tomate >= 12 &&
-            cebola > +10 &&
+            cebola >= 10 &&
             !SaveManager.Instance.UpgradeDesbloqueado("FireRateExtra");
 
 

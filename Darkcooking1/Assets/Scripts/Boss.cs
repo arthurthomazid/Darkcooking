@@ -8,8 +8,10 @@ public class Boss : MonoBehaviour
 {
     [Header("Vida")]
     public TMP_Text vida;
-
     public int vidaMaxima = 80;
+
+    [Header("Dano")]
+    public int dano;
 
     private int vidaAtual;
 

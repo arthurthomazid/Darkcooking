@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7672235179478828333}
   - component: {fileID: 3076428682009122712}
   - component: {fileID: 3001688466889164934}
+  - component: {fileID: 1403227939634915673}
   m_Layer: 3
   m_Name: Boss
   m_TagString: Enemy
@@ -32,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 4699593150729776262}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 1.93, z: 0}
+  m_LocalPosition: {x: -6.42, y: 2.34, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -85,8 +86,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -3337038689812066966, guid: 705ec93dc91074e42a31fa044270629d, type: 3}
-  m_Color: {r: 0.5568628, g: 0.31764707, b: 0.31764707, a: 1}
+  m_Sprite: {fileID: -8315048008487321233, guid: 7eb9bd0ee9eebdd4daa3aa44a0d5c588, type: 3}
+  m_Color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -136,8 +137,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
-  tipo: 0
-  vidaMaxima: 120
+  CebolaTela: 0
+  tipo: 8
+  vidaMaxima: 700
+  dano: 100
+  efeitoTela: {fileID: 0}
+  efeitomorteprefab: {fileID: 0}
 --- !u!61 &7190677963710631855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -172,17 +177,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.004342556, y: -0.18238476}
+  m_Offset: {x: 0, y: 0.4}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.82, y: 2.56}
+    oldSize: {x: 3.32, y: 2.49}
     newSize: {x: 0.55, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.7530646, y: 2.091251}
+  m_Size: {x: 3.4, y: 0.4245844}
   m_EdgeRadius: 0
 --- !u!82 &7672235179478828333
 AudioSource:
@@ -293,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c55c69adc06084ba828a22acee1ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  velocidade: 0
+  velocidade: 0.1
   tempoTroca: 3
   velocidadeHorizontal: 5
 --- !u!114 &3001688466889164934
@@ -309,4 +314,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   vida: {fileID: 0}
-  vidaMaxima: 80
+  vidaMaxima: 700
+--- !u!68 &1403227939634915673
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4699593150729776262}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.65999985, y: 1.2}
+  - {x: -1.6375561, y: 0.58710915}
+  - {x: -1.6201009, y: 0.014925152}
+  - {x: -0.79661787, y: -1.0392177}
+  - {x: -0.012755425, y: -1.3000001}
+  - {x: 0.25619027, y: -1.2257254}
+  - {x: 0.9980827, y: -1.0208373}
+  - {x: 1.5218763, y: -0.20384824}
+  - {x: 1.56, y: 0.59999996}
+  - {x: 1.1889149, y: 1.0826511}
+  - {x: 0.5936344, y: 1.2208462}
+  - {x: -0.6400002, y: 1.2}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
