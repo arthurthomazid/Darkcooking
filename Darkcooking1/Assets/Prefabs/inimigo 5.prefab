@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -6491860517749720092, guid: 0af5f4c34da5f414db51431c07d93a59, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6313726, g: 0.6313726, b: 0.6313726, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -135,9 +135,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
+  CebolaTela: 0
   tipo: 3
   vidaMaxima: 20
   dano: 1
+  efeitoTela: {fileID: 0}
   efeitomorteprefab: {fileID: 1033019803591943634, guid: f43aa3ab9aeef6545a9810c8c88beeaa, type: 3}
 --- !u!61 &4663756505998323080
 BoxCollider2D:
