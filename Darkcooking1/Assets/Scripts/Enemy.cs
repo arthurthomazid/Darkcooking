@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using TMPro;
+using System.Collections;
 public enum TipoComida
 {
     Maca,
@@ -16,6 +17,14 @@ public enum TipoComida
 
 public class Enemy : MonoBehaviour
 {
+
+    [Header("Efeito de Dano")]
+    public SpriteRenderer spriteRenderer;
+    public Color corDano = Color.red;
+    public float piscadaDuração = 0.1f;
+
+    private Color corOriginal;
+
     [Header("Som")]
     public AudioClip somDano;
 
@@ -40,6 +49,15 @@ public class Enemy : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
 
         vidaAtual = vidaMaxima;
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        if (spriteRenderer != null)
+        {
+            corOriginal = spriteRenderer.color;
+        }
     }
 
     public void ReceberDano(int dano)
@@ -49,6 +67,11 @@ public class Enemy : MonoBehaviour
             audioSource.PlayOneShot(somDano);
         }
 
+        if (spriteRenderer != null)
+        {
+            StartCoroutine(Piscar());
+        }
+
         vidaAtual -= dano;
 
         if (vidaAtual <= 0)
@@ -56,6 +79,14 @@ public class Enemy : MonoBehaviour
             audioSource.PlayOneShot(somDano);
             Morrer();
         }
+    }
+    IEnumerator Piscar()
+    {
+        spriteRenderer.color = corDano;
+
+        yield return new WaitForSeconds(piscadaDuração);
+
+        spriteRenderer.color = corOriginal;
     }
 
     void Morrer()

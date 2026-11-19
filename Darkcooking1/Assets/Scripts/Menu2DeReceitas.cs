@@ -14,6 +14,10 @@ public class Recipe2Menu : MonoBehaviour
     public bool comprarVidaExtra;
     public GameObject painel;
 
+    public void Start()
+    {
+        painel.SetActive(false);
+    }
     void OnEnable()
     {
         AtualizarReceitas();
