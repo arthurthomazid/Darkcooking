@@ -136,6 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be078ad29aaf1644a931fb00d75425d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  spriteRenderer: {fileID: 0}
+  corDano: {r: 0.20754719, g: 0, b: 0, a: 1}
+  "piscadaDura\xE7\xE3o": 0.1
   somDano: {fileID: 8300000, guid: e60ed840815ec1a4d86ee1eb8bab3702, type: 3}
   CebolaTela: 0
   tipo: 8
@@ -315,6 +318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   vida: {fileID: 0}
   vidaMaxima: 700
+  dano: 0
 --- !u!68 &1403227939634915673
 EdgeCollider2D:
   m_ObjectHideFlags: 0

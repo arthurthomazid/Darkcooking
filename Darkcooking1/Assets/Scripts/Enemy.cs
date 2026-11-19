@@ -120,15 +120,8 @@ public class Enemy : MonoBehaviour
             //procura o jogador na cena.
             Player player = FindFirstObjectByType<Player>();
 
-            if (player == null)
-            {
-                Debug.Log("player não encontrado");
-            }
-            else
-            {
-                player.ReceberDano();
-                Debug.Log("Player encontrado");
-            }
+            player.ReceberDano();
+            
             Destroy(gameObject);
         }
     }

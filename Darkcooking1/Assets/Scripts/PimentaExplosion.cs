@@ -12,17 +12,14 @@ public class PimentaExplosion : MonoBehaviour
     [Header("Efeito visual")]
     public GameObject efeitoExplosao;
 
-    private float contador = 0f;
-
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        contador += Time.deltaTime;
-        if (contador >= tempoParaExplodir)
+        //verifica se o objeto possui a tag de muro
+        if (other.CompareTag("Muro"))
         {
             Explodir();
         }
     }
-
     public void Explodir()
     {
         //Cria o efeito visual da explosão

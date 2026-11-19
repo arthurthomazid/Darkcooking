@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 3967988430134852674}
   - component: {fileID: 602997023831311099}
   - component: {fileID: 1205229454998439348}
-  - component: {fileID: 4077439794162132624}
   - component: {fileID: 7087218177718372920}
+  - component: {fileID: -351122940009791063}
   m_Layer: 3
   m_Name: inimigo 7
   m_TagString: Enemy
@@ -304,22 +304,6 @@ MonoBehaviour:
   velocidade: 0.9
   tempoTroca: 99
   velocidadeHorizontal: 0
---- !u!114 &4077439794162132624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2240369485002906354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a886d902baf0cfe4aa3547e9adb66a3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeterrabaExplosion
-  tempoParaExplodir: 8.5
-  raioExplosao: 4.5
-  dano: 1
-  efeitoExplosao: {fileID: 1716701011878509568, guid: 75e866fe8927fc94daf82a61f2dd6a56, type: 3}
 --- !u!60 &7087218177718372920
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -448,3 +432,19 @@ PolygonCollider2D:
       - {x: 0.089999996, y: -2}
       - {x: 0.22999999, y: -1.88}
   m_UseDelaunayMesh: 0
+--- !u!114 &-351122940009791063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2240369485002906354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a886d902baf0cfe4aa3547e9adb66a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PimentaExplosion
+  tempoParaExplodir: 5
+  raioExplosao: 2
+  dano: 1
+  efeitoExplosao: {fileID: 1716701011878509568, guid: 75e866fe8927fc94daf82a61f2dd6a56, type: 3}
