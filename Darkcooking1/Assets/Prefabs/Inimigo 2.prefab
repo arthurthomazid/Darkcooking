@@ -141,7 +141,7 @@ MonoBehaviour:
   CebolaTela: 0
   tipo: 1
   vidaMaxima: 2
-  dano: 0
+  dano: 1
   efeitoTela: {fileID: 0}
   efeitomorteprefab: {fileID: 1033019803591943634, guid: f43aa3ab9aeef6545a9810c8c88beeaa, type: 3}
 --- !u!61 &5923467801499640041

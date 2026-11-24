@@ -86,8 +86,11 @@ public class Player : MonoBehaviour
 
     public void ReceberDano(int dano)
     {
-        dano = 1;
-        life -= 1;
+        life -= dano;
+        if (life < 0)
+        {
+            life = 0;
+        }
         AtualizarHud();
         if (life <= 0)
         {

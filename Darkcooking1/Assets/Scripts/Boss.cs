@@ -39,4 +39,18 @@ public class Boss : MonoBehaviour
     {
         vida.text = $"Vida:{vidaAtual}/{vidaMaxima}";
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //verifica se o objeto possui a tag de muro
+        if (other.CompareTag("Muro"))
+        {
+            //procura o jogador na cena.
+            Player player = FindFirstObjectByType<Player>();
+
+            player.ReceberDano();
+
+            Destroy(gameObject);
+        }
+    }
 }

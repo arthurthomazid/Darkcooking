@@ -114,14 +114,25 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //verifica se o objeto possui a tag de muro
         if (other.CompareTag("Muro"))
         {
-            //procura o jogador na cena.
             Player player = FindFirstObjectByType<Player>();
 
-            player.ReceberDano();
-            
+            if (player != null)
+            {
+
+                //Boss causa dano igual à vida máxima do jogador
+                if (tipo == TipoComida.Boss)
+                {
+                    player.ReceberDano((int)player.life);
+                }
+                else
+                {
+                    // Inimigos normais causam apenas 1 de dano
+                    player.ReceberDano(1);
+                }
+            }
+
             Destroy(gameObject);
         }
     }
