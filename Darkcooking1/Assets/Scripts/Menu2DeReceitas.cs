@@ -29,11 +29,11 @@ public class Recipe2Menu : MonoBehaviour
         int abobora = SaveManager.Instance.GetQuantidade(TipoComida.Abobora);
 
         textoBatata.text = $"Batatas:{batatas}/8";
-        textoAbobora.text = $"Aboboras:{abobora}/8";
+        textoAbobora.text = $"Aboboras:{abobora}/4";
 
         vidaExtraButton.interactable =
             batatas >= 8 &&
-            abobora >= 8 &&
+            abobora >= 4 &&
             !SaveManager.Instance.UpgradeDesbloqueado("VidaExtra");
 
         ProximaFase();

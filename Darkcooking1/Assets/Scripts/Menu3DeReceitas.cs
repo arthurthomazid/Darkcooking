@@ -34,20 +34,20 @@ public class Recipe3Menu : MonoBehaviour
         int cebola = SaveManager.Instance.GetQuantidade(TipoComida.Cebola);
 
         textoTomate.text = $"Tomates:{tomate}/8";
-        textoPimenta.text = $"Pimentas:{pimenta}/8";
+        textoPimenta.text = $"Pimentas:{pimenta}/5";
 
-        textoCebola.text = $"Cebolas:{cebola}/10";
-        textoTomate2.text = $"Tomates:{tomate}/12";
+        textoCebola.text = $"Cebolas:{cebola}/6";
+        textoTomate2.text = $"Tomates:{tomate}/8";
 
 
         tiroTriploButton.interactable =
             tomate >= 8 &&
-            pimenta >= 8 &&
+            pimenta >= 5 &&
             !SaveManager.Instance.UpgradeDesbloqueado("TiroTriplo");
 
         fireRateExtraButton.interactable =
-            tomate >= 12 &&
-            cebola >= 10 &&
+            tomate >= 8 &&
+            cebola >= 6 &&
             !SaveManager.Instance.UpgradeDesbloqueado("FireRateExtra");
 
 

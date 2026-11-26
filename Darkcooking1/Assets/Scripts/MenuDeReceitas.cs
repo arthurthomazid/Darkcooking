@@ -31,22 +31,22 @@ public class RecipeMenu : MonoBehaviour
         int alfaces = SaveManager.Instance.GetQuantidade(TipoComida.Alface);
 
         //Atualiza os textos
-        textoMaca.text = $"Maçãs:{macas}/10";
+        textoMaca.text = $"Maçãs:{macas}/7";
         textoCenoura.text = $"Cenouras:{cenouras}/5";
 
-        textoCenoura2.text = $"Cenouras:{cenouras}/8";
+        textoCenoura2.text = $"Cenouras:{cenouras}/4";
         textoAlface.text = $"Alfaces:{alfaces}/6";
         textoMaca2.text = $"Maçãs:{macas}/3";
 
         //Receita 1
         velocidadeButton.interactable =
-            macas >= 10 &&
+            macas >= 7 &&
             cenouras >= 5 &&
             !SaveManager.Instance.UpgradeDesbloqueado("Velocidade");
 
         //Receita 2
         tiroTriploButton.interactable =
-            cenouras >= 8 &&
+            cenouras >= 4 &&
             alfaces >= 6 &&
             macas >= 3 &&
             !SaveManager.Instance.UpgradeDesbloqueado("DanoExtra");
